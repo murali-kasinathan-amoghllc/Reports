@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/FitupWeldingProgress_AreaWiseService.asmx" hash="ffffffffaf47d6c5" filehash="ffffbb0f83f7ecc1" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.FitupWeldingProgress_AreaWiseService">
+    <filedeps>
+        <filedep name="/FitupWeldingProgress_AreaWiseService.asmx" />
+    </filedeps>
+</preserve>

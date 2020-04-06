@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "ChartsList";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    @*<script src="~/vendor/jquery/jquery.min.js"></script>*@
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/js/demo/datatables-demo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.jqueryui.min.js"></script>
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.jqueryui.min.css" />
+    <script src="~/js/reportList.js"></script>
+    @*<script type="text/javascript">
+            function preventBack() { window.history.forward(); }
+            setTimeout("preventBack()", 0);
+            window.onunload = function () { null };
+        </script>*@
+    <style>
+        .profileName {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .rowsName {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        @*<span style="float:right">
+                <img src="~/img/back-button.png" id="btnBack" alt="Image" />
+            </span>*@
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            @*<a href="#">&larr; Back to Dashboard</a>*@
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Charts</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <input type="hidden" id="hdnURL" value="@Url.Content("~/")" />
+                    <table class="table table-bordered table-hover" id="myCharts" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                @*<th style="background-color:#4CAF50;color:white"></th>*@
+                                <th style="background-color:#4CAF50;color:white">Chart No</th>
+                                <th style="background-color:#4CAF50;color:white">Chart Name</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+

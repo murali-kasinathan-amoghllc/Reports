@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/IsometricStatusService.asmx" hash="ffffffffaf47d6c5" filehash="331f74094ddc" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.IsometricStatusService">
+    <filedeps>
+        <filedep name="/IsometricStatusService.asmx" />
+    </filedeps>
+</preserve>

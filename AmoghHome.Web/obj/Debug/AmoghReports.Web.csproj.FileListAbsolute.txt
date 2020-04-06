@@ -1,0 +1,170 @@
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\AmoghHome.Web.dll.config
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\AmoghHome.Web.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\AmoghHome.Web.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\csc.exe
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\csc.exe.config
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\csc.rsp
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\csi.exe
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\csi.exe.config
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\csi.rsp
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.AppContext.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Console.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.IO.Compression.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.IO.Pipes.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Security.Claims.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.ValueTuple.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Xml.XPath.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\vbc.exe
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\vbc.exe.config
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\vbc.rsp
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\VBCSCompiler.exe
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\AmoghReports.Library.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\System.Net.Http.Formatting.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\System.Web.Http.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\System.Web.Http.WebHost.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.Services.WebApi.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.WebServiceDataSource.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.XpsRendering.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.Html5.WebForms.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.Mvc.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.WebForms.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\AmoghReports.Library.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\System.Net.Http.Formatting.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\System.Web.Http.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\System.Web.Http.WebHost.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.Services.WebApi.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.Services.WebApi.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.WebServiceDataSource.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.WebServiceDataSource.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.XpsRendering.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.Reporting.XpsRendering.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.Html5.WebForms.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.Html5.WebForms.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.Mvc.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.Mvc.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.WebForms.pdb
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\bin\Telerik.ReportViewer.WebForms.xml
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\obj\Debug\AmoghReports.Web.csprojAssemblyReference.cache
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\obj\Debug\AmoghHome.Web.dll.licenses
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\obj\Debug\AmoghReports.Web.csproj.CoreCompileInputs.cache
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\obj\Debug\AmoghReports.Web.csproj.CopyComplete
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\obj\Debug\AmoghHome.Web.dll
+E:\Murali\Source Code\AmoghReports\AmoghHome.Web\obj\Debug\AmoghHome.Web.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\AmoghHome.Web.dll.config
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\AmoghHome.Web.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\AmoghHome.Web.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\csc.exe
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\csc.exe.config
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\csc.rsp
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\csi.exe
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\csi.exe.config
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\csi.rsp
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.AppContext.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Console.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.IO.Compression.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.IO.Pipes.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Security.Claims.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.ValueTuple.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Xml.XPath.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\vbc.exe
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\vbc.exe.config
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\vbc.rsp
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\VBCSCompiler.exe
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\AmoghReports.Library.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\System.Net.Http.Formatting.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\System.Web.Http.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\System.Web.Http.WebHost.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.Services.WebApi.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.WebServiceDataSource.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.XpsRendering.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.Html5.WebForms.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.Mvc.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.WebForms.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Web.UI.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\AmoghReports.Library.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\System.Net.Http.Formatting.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\System.Web.Http.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\System.Web.Http.WebHost.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.Services.WebApi.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.Services.WebApi.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.WebServiceDataSource.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.WebServiceDataSource.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.XpsRendering.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Reporting.XpsRendering.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.Html5.WebForms.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.Html5.WebForms.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.Mvc.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.Mvc.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.WebForms.pdb
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.ReportViewer.WebForms.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\bin\Telerik.Web.UI.xml
+E:\AmoghReportsVS\Murali\AmoghHome.Web\obj\Debug\AmoghReports.Web.csprojAssemblyReference.cache
+E:\AmoghReportsVS\Murali\AmoghHome.Web\obj\Debug\AmoghHome.Web.dll.licenses
+E:\AmoghReportsVS\Murali\AmoghHome.Web\obj\Debug\AmoghReports.Web.csproj.CoreCompileInputs.cache
+E:\AmoghReportsVS\Murali\AmoghHome.Web\obj\Debug\AmoghReports.Web.csproj.CopyComplete
+E:\AmoghReportsVS\Murali\AmoghHome.Web\obj\Debug\AmoghHome.Web.dll
+E:\AmoghReportsVS\Murali\AmoghHome.Web\obj\Debug\AmoghHome.Web.pdb

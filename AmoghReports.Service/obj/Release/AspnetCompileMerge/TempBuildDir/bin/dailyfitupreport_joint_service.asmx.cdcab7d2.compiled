@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/DailyFitupReport_Joint_Service.asmx" hash="ffffffffaf47d6c5" filehash="ffffd354fa261adb" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.DailyFitup_Joint_Service">
+    <filedeps>
+        <filedep name="/DailyFitupReport_Joint_Service.asmx" />
+    </filedeps>
+</preserve>

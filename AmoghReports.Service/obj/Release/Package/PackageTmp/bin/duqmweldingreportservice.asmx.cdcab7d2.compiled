@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/DuqmWeldingReportService.asmx" hash="ffffffffaf47d6c5" filehash="fffff14a75b84a28" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.DuqmWeldingReportService">
+    <filedeps>
+        <filedep name="/DuqmWeldingReportService.asmx" />
+    </filedeps>
+</preserve>

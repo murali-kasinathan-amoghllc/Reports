@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/DuqmPostWeldHeatTreatmentService.asmx" hash="ffffffffaf47d6c5" filehash="fffffb632fe893bb" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.DuqmPostWeldHeatTreatmentService">
+    <filedeps>
+        <filedep name="/DuqmPostWeldHeatTreatmentService.asmx" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<AmoghReports.WebSite.Models.ProjectsModel>
+@{
+    ViewBag.Title = "ProjectsList";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @*<script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>*@
+    <style>
+        .profileName {
+            color: blue;
+            font-weight: bold;
+        }
+        .rowsName {
+            color: blue;
+        }
+    </style>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/js/projectList.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <input type="hidden" id="hdnURL" value="@Url.Content("~/")" />
+                    <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th style="background-color:#4CAF50;color:white"></th>
+                                <th style="background-color:#4CAF50;color:white">Project ID</th>
+                                <th style="background-color:#4CAF50;color:white">Project Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                            <tr>
+                                <td>
+                                    <div style="text-align: center">
+                                        <img src="~/img/oil-drill-icon-16.png" alt="Image" height="30px" />
+                                    </div>
+                                </td>
+                                @if (@item.projectId == 1)
+                                {
+                                    <td class="rowsName">JI-2035 - GC-32</td>
+                                }
+                                @if (@item.projectId == 2)
+                                {
+                                    <td class="rowsName">JI-2037 - DUQM</td>
+                                }
+                                @if (@item.projectId == 3)
+                                {
+                                    <td class="rowsName">JI-2039 - BPCL</td>
+                                }
+                                @if (@item.projectId == 4)
+                                {
+                                    <td class="rowsName">P11570 - BIFP</td>
+                                }
+                                <td id="projectName" class="rowsName"> @item.projectName</td>
+                            </tr>
+                            }
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/js/demo/datatables-demo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.jqueryui.min.js"></script>
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.jqueryui.min.css" />
+</body>
+</html>
+
+

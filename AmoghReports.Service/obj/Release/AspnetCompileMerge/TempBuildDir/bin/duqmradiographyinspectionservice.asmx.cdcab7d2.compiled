@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/DuqmRadiographyInspectionService.asmx" hash="ffffffffaf47d6c5" filehash="ffffbfb9f1c14bc1" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.RadiographyInspectionService">
+    <filedeps>
+        <filedep name="/DuqmRadiographyInspectionService.asmx" />
+    </filedeps>
+</preserve>

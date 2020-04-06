@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/GetReportXField.asmx" hash="ffffffffaf47d6c5" filehash="19a1a7ad42fa" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.GetReportXField">
+    <filedeps>
+        <filedep name="/GetReportXField.asmx" />
+    </filedeps>
+</preserve>

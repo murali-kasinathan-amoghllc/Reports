@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/DuqmMagneticParticleTestingService.asmx" hash="ffffffffaf47d6c5" filehash="ffffccf61e72733d" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.MagneticParticleTestingService">
+    <filedeps>
+        <filedep name="/DuqmMagneticParticleTestingService.asmx" />
+    </filedeps>
+</preserve>

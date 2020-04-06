@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/DuqmSpoolClearanceAndReleaseService.asmx" hash="ffffffffaf47d6c5" filehash="ffffedfe300f5d78" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.DuqmSpoolClearanceAndReleaseService">
+    <filedeps>
+        <filedep name="/DuqmSpoolClearanceAndReleaseService.asmx" />
+    </filedeps>
+</preserve>

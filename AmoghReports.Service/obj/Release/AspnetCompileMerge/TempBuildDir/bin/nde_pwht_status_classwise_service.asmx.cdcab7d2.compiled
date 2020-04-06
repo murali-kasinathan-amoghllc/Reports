@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/NDE_PWHT_Status_ClassWise_Service.asmx" hash="ffffffffaf47d6c5" filehash="141959692373" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.NDE_PWHT_Status_ClassWise_Service">
+    <filedeps>
+        <filedep name="/NDE_PWHT_Status_ClassWise_Service.asmx" />
+    </filedeps>
+</preserve>

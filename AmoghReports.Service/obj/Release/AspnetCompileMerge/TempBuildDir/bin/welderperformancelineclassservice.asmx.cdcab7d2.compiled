@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/WelderPerformanceLineClassService.asmx" hash="ffffffffaf47d6c5" filehash="3c42a00516d0" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.WelderPerformanceLineClassService">
+    <filedeps>
+        <filedep name="/WelderPerformanceLineClassService.asmx" />
+    </filedeps>
+</preserve>

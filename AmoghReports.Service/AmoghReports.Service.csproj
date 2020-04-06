@@ -1,0 +1,326 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE921C0C-050F-460A-81DF-3F036C60F09A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AmoghReports.Service</RootNamespace>
+    <AssemblyName>AmoghReports.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.3.1\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Reporting, Version=13.1.19.618, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.Reporting.WebServiceDataSource, Version=13.1.19.618, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DailyFitupReport_Joint_Service.asmx" />
+    <Content Include="DailyWeldingReport_Joint_Service.asmx" />
+    <Content Include="FitupWeldingProgress_AreaWiseService.asmx" />
+    <Content Include="FitupWeldingProgress_MatWiseService.asmx" />
+    <Content Include="FitupWeldingProgress_SizeWiseService.asmx" />
+    <Content Include="NDE_RT_Status_ClassWise_Service.asmx" />
+    <Content Include="NDE_FT_Status_ClassWise_Service.asmx" />
+    <Content Include="NDE_HT_Status_ClassWise_Service.asmx" />
+    <Content Include="NDE_PMI_Status_ClassWise_Service.asmx" />
+    <Content Include="NDE_PWHT_Status_ClassWise_Service.asmx" />
+    <Content Include="NDE_UT_Status_ClassWise_Service.asmx" />
+    <Content Include="DuqmPostWeldHeatTreatmentService.asmx" />
+    <Content Include="DuqmWeldingReportService.asmx" />
+    <Content Include="GetReportParameters.asmx" />
+    <Content Include="GetReportXField.asmx" />
+    <Content Include="GetReportXShop.asmx" />
+    <Content Include="Global.asax" />
+    <Content Include="IsometricStatusService.asmx" />
+    <Content Include="DuqmSpoolClearanceAndReleaseService.asmx" />
+    <Content Include="DuqmLiquidPenetrantTestingService.asmx" />
+    <Content Include="DuqmMagneticParticleTestingService.asmx" />
+    <Content Include="DuqmRadiographyInspectionService.asmx" />
+    <Content Include="ReportSpoolIdService.asmx" />
+    <Content Include="RFITransmittalService.asmx" />
+    <Content Include="RTReportsService.asmx" />
+    <Content Include="SpoolGenProgress_LotWise_Exclude3RevService.asmx" />
+    <Content Include="SpoolGenProgress_LotWise_Service.asmx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WelderPerformanceLengthWiseService.asmx" />
+    <Content Include="WelderPerformanceLineClassLengthService.asmx" />
+    <Content Include="WelderPerformanceLineClassService.asmx" />
+    <Content Include="WelderPerformanceMaterialWiseService.asmx" />
+    <Content Include="WelderPerformanceMonthlyWiseService.asmx" />
+    <Content Include="WelderPerformanceRTPercentService.asmx" />
+    <Content Include="WelderPerformanceService.asmx" />
+    <Content Include="WelderPerformanceWeldSizeService.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DailyFitupReport_Joint_Service.asmx.cs">
+      <DependentUpon>DailyFitupReport_Joint_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DailyWeldingReport_Joint_Service.asmx.cs">
+      <DependentUpon>DailyWeldingReport_Joint_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DatabaseTools.cs" />
+    <Compile Include="FitupWeldingProgress_AreaWiseService.asmx.cs">
+      <DependentUpon>FitupWeldingProgress_AreaWiseService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FitupWeldingProgress_MatWiseService.asmx.cs">
+      <DependentUpon>FitupWeldingProgress_MatWiseService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FitupWeldingProgress_SizeWiseService.asmx.cs">
+      <DependentUpon>FitupWeldingProgress_SizeWiseService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NDE_RT_Status_ClassWise_Service.asmx.cs">
+      <DependentUpon>NDE_RT_Status_ClassWise_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NDE_FT_Status_ClassWise_Service.asmx.cs">
+      <DependentUpon>NDE_FT_Status_ClassWise_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NDE_HT_Status_ClassWise_Service.asmx.cs">
+      <DependentUpon>NDE_HT_Status_ClassWise_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NDE_PMI_Status_ClassWise_Service.asmx.cs">
+      <DependentUpon>NDE_PMI_Status_ClassWise_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NDE_PWHT_Status_ClassWise_Service.asmx.cs">
+      <DependentUpon>NDE_PWHT_Status_ClassWise_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NDE_UT_Status_ClassWise_Service.asmx.cs">
+      <DependentUpon>NDE_UT_Status_ClassWise_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DuqmPostWeldHeatTreatmentService.asmx.cs">
+      <DependentUpon>DuqmPostWeldHeatTreatmentService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DuqmWeldingReportService.asmx.cs">
+      <DependentUpon>DuqmWeldingReportService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GetReportParameters.asmx.cs">
+      <DependentUpon>GetReportParameters.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GetReportXField.asmx.cs">
+      <DependentUpon>GetReportXField.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GetReportXShop.asmx.cs">
+      <DependentUpon>GetReportXShop.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IsometricStatusService.asmx.cs">
+      <DependentUpon>IsometricStatusService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DuqmLiquidPenetrantTestingService.asmx.cs">
+      <DependentUpon>DuqmLiquidPenetrantTestingService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DuqmMagneticParticleTestingService.asmx.cs">
+      <DependentUpon>DuqmMagneticParticleTestingService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MathUtility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DuqmSpoolClearanceAndReleaseService.asmx.cs">
+      <DependentUpon>DuqmSpoolClearanceAndReleaseService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DuqmRadiographyInspectionService.asmx.cs">
+      <DependentUpon>DuqmRadiographyInspectionService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportSpoolIdService.asmx.cs">
+      <DependentUpon>ReportSpoolIdService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RFITransmittalService.asmx.cs">
+      <DependentUpon>RFITransmittalService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RTReportsService.asmx.cs">
+      <DependentUpon>RTReportsService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SpoolDetailsSQL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpoolDetailsSQL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpoolGenProgress_LotWise_Exclude3RevService.asmx.cs">
+      <DependentUpon>SpoolGenProgress_LotWise_Exclude3RevService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SpoolGenProgress_LotWise_Service.asmx.cs">
+      <DependentUpon>SpoolGenProgress_LotWise_Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubContractorsModel.cs" />
+    <Compile Include="WelderPerformanceLengthWiseService.asmx.cs">
+      <DependentUpon>WelderPerformanceLengthWiseService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WelderPerformanceLineClassLengthService.asmx.cs">
+      <DependentUpon>WelderPerformanceLineClassLengthService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WelderPerformanceLineClassService.asmx.cs">
+      <DependentUpon>WelderPerformanceLineClassService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WelderPerformanceMaterialWiseService.asmx.cs">
+      <DependentUpon>WelderPerformanceMaterialWiseService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WelderPerformanceMonthlyWiseService.asmx.cs">
+      <DependentUpon>WelderPerformanceMonthlyWiseService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WelderPerformanceRTPercentService.asmx.cs">
+      <DependentUpon>WelderPerformanceRTPercentService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WelderPerformanceService.asmx.cs">
+      <DependentUpon>WelderPerformanceService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WelderPerformanceWeldSizeService.asmx.cs">
+      <DependentUpon>WelderPerformanceWeldSizeService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AmoghReports.Library\AmoghReports.Library.csproj">
+      <Project>{4284dc50-fd05-4c74-8b32-afe2f7ab8ed1}</Project>
+      <Name>AmoghReports.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SpoolDetailsSQL.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpoolDetailsSQL.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64498</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50080/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

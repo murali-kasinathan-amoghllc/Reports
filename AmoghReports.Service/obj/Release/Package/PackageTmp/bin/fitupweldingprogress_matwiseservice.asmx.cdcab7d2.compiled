@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/FitupWeldingProgress_MatWiseService.asmx" hash="ffffffffaf47d6c5" filehash="ca715e80def" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.FitupWeldingProgress_MatWiseService">
+    <filedeps>
+        <filedep name="/FitupWeldingProgress_MatWiseService.asmx" />
+    </filedeps>
+</preserve>

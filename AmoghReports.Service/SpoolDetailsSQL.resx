@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SpoolDetailSQL_A" xml:space="preserve">
+    <value>SELECT
+     PROJ.PROJECT_ID,
+     PROJ.JOB_CODE,
+     PROJ.CLIENT_NAME,
+     PROJ.JOB_NAME,
+     PROJ.APP_LOGO1,
+     PROJ.APP_LOGO2,
+     PROJ.REMARKS                             AS PROJ_REM,
+     PIP_ISOMETRIC.ISO_ID,
+     PIP_ISOMETRIC.AREA_L1,
+     IPMS_AREA.AREA_L2,
+     IPMS_AREA.AREA_GROUP,
+     PIP_ISOMETRIC.UNIT,
+     PIP_ISOMETRIC.AGUG,
+     PIP_ISOMETRIC.ISO_TITLE1,
+     PIP_ISOMETRIC.FLUID_CODE,
+     NVL(VIEW_WO_SPL_ID.SUB_CON_ID,SUBCON.SUB_CON_ID) AS SUB_CON_ID,
+     NVL(VIEW_WO_SPL_ID.SUB_CON_NAME,SUBCON.SUB_CON_NAME) AS SUB_CON,
+     PIP_ISOMETRIC.FIELD_SC_ID,
+     PIP_ISOMETRIC.FAB_SC_ID,
+     PIP_SPOOL.CURR_SC_ID,
+     TBL_FIELD_SC.SUB_CON_NAME                AS FIELD_SC_NAME,
+     SUB_CONTRACTOR2.SUB_CON_NAME             AS FAB_SC_NAME,
+     PIP_SPOOL.SHEET,
+     PIP_SPOOL.SPL_ID,
+     PIP_SPOOL.SPOOL,
+     VIEW_WO_SPL_ID.WO_ID,
+     VIEW_WO_SPL_ID.WO_NAME                   AS JC_NO,
+     VIEW_WO_SPL_ID.ISSUE_DATE                AS JC_ISSUE_DATE,
+     VIEW_SPL_PACKING_LIST_NO.SER_NO          AS SPL_SRN,
+     VIEW_SPL_PACKING_LIST_NO.SHIPPING_DATE   AS PKL_SHIPPING_DATE,
+     PIP_SPOOL.MAT_AVL,
+     PIP_ISOMETRIC.LINE_SIZE,
+     PIP_SPOOL.SPL_SIZE,
+     PIP_ISOMETRIC.MAIN_MAT,
+     PIP_ISOMETRIC.LINE_CLASS,
+     PIP_SPOOL.MAT_TYPE,
+     PIP_MAT_TYPE.MAT_GROUP,
+     PIP_MAT_TYPE.TYPE_DESCR                  AS MAT_TYPE_DESCR,
+     PIP_SPOOL.MAT_CLASS,
+     PIP_SPOOL.FITUP_DATE,
+     PIP_SPOOL.WELD_DATE,
+     PIP_SPOOL.SENT_TO_SITE,
+     PIP_SPOOL.RECVD_SITE,
+     PIP_SPOOL.SITE_WELDING,
+     PIP_SPOOL.SITE_EREC,
+     VIEW_SPL_ID_INCH_DIA.SHOP_ID,
+     VIEW_SPL_ID_INCH_DIA.FIELD_ID,
+     PIP_SPOOL.INCH_MTR,
+     VIEW_SPL_ID_INCH_DIA.SHOP_FITUP,
+     VIEW_SPL_ID_INCH_DIA.SHOP_WELDING,
+     VIEW_SPL_ID_INCH_DIA.FIELD_FITUP,
+     VIEW_SPL_ID_INCH_DIA.FIELD_WELDING,
+     PIP_SPOOL.PS                             AS SPL_PS,
+     PIP_SPOOL.SFR,
+     PIP_SPOOL.SPL_SWN_NO,
+     PIP_SPOOL.SPL_SWN_DT,
+     PIP_SPOOL.SPL_REL_NO,
+     PIP_SPOOL.SPL_REL_DT,
+     PIP_SPOOL.HOLD_DATE,
+     PIP_SPOOL.REL_DATE,
+     PIP_SPOOL.DIM_CHECK,
+     PIP_SPOOL.NDE_CMPLT,
+     PIP_SPOOL.SITE_NDE_CMPLT,
+     PIP_SPOOL.INT_BLST_DATE,
+     PIP_SPOOL.PACKING_REL,
+     PIP_SPOOL.CLEAR_DATE,
+     VIEW_SPL_PACKING_LIST_NO.SER_NO          AS PACKING_NO,
+     VIEW_SPL_PACKING_LIST_NO.ISSUE_DATE      AS PACKING_DATE,
+     VIEW_SPL_PACKING_LIST_NO.SHIP_NO,
+     PIP_SPOOL.CREATE_DATE,
+     PAINTING_SPL.PNT_REQ_NO                  AS PAINT_REQ_NO,
+     PAINTING_SPL.REQ_DATE                    AS PAINT_REQ_DATE,
+     PIP_SPOOL.PAINT_CLR,
+     PIP_SPOOL.PAINT_REP,
+     PIP_SPOOL.INTER_PAINT_DATE,
+     PIP_SPOOL.FINAL_PAINT_DATE,
+     VIEW_SPL_SHPIPPING_JC.SER_NO             AS SHIPPING_JC_NO,
+     PIP_SPOOL.DEL_DATE,
+     PIP_REVISION.HOLD_DATE                   AS ISO_HOLD_DATE,
+     PIP_REVISION.REL_DATE                    AS ISO_REL_DATE,
+     PIP_REVISION.DEL_DATE                    AS ISO_DEL_DATE,
+     PIP_REVISION.STATUS_ID                   AS ISO_STATUS_ID
+ FROM
+     PIP_ISOMETRIC
+     INNER JOIN PIP_SPOOL ON PIP_ISOMETRIC.ISO_ID = PIP_SPOOL.ISO_ID
+     INNER JOIN PROJECT_INFORMATION PROJ ON PIP_ISOMETRIC.PROJ_ID = PROJ.PROJECT_ID
+     LEFT OUTER JOIN PIP_MAT_TYPE ON PIP_ISOMETRIC.PROJ_ID = PIP_MAT_TYPE.PROJ_ID
+                                     AND PIP_SPOOL.MAT_TYPE = PIP_MAT_TYPE.MAT_TYPE
+     LEFT OUTER JOIN IPMS_AREA ON PIP_ISOMETRIC.PROJ_ID = IPMS_AREA.PROJECT_ID
+                                  AND PIP_ISOMETRIC.AREA_L1 = IPMS_AREA.AREA_L1
+     LEFT OUTER JOIN VIEW_WO_SPL_ID ON PIP_SPOOL.SPL_ID = VIEW_WO_SPL_ID.SPL_ID
+     LEFT OUTER JOIN VIEW_SPL_ID_INCH_DIA ON PIP_SPOOL.SPL_ID = VIEW_SPL_ID_INCH_DIA.SPL_ID
+     LEFT OUTER JOIN VIEW_SPL_SC_ID ON PIP_SPOOL.SPL_ID = VIEW_SPL_SC_ID.SPL_ID
+     LEFT OUTER JOIN SUB_CONTRACTOR SUBCON ON VIEW_SPL_SC_ID.SC_ID = SUBCON.SUB_CON_ID
+     LEFT OUTER JOIN SUB_CONTRACTOR TBL_FIELD_SC ON PIP_ISOMETRIC.FIELD_SC_ID = TBL_FIELD_SC.SUB_CON_ID
+     LEFT OUTER JOIN VIEW_SPL_FIELD_JC ON PIP_SPOOL.SPL_ID = VIEW_SPL_FIELD_JC.SPL_ID
+     LEFT OUTER JOIN VIEW_SPL_PACKING_LIST_NO ON PIP_SPOOL.SPL_ID = VIEW_SPL_PACKING_LIST_NO.SPL_ID
+     LEFT OUTER JOIN SUB_CONTRACTOR SUB_CONTRACTOR2 ON PIP_ISOMETRIC.FAB_SC_ID = SUB_CONTRACTOR2.SUB_CON_ID
+     LEFT OUTER JOIN VIEW_SPL_SHPIPPING_JC ON PIP_SPOOL.SPL_ID = VIEW_SPL_SHPIPPING_JC.SPL_ID
+     LEFT OUTER JOIN (
+         SELECT
+             PIP_PAINTING_SPL_DETAIL.SPL_ID,
+             PIP_PAINTING_SPL.PNT_REQ_NO,
+             PIP_PAINTING_SPL.REQ_DATE
+         FROM
+             PIP_PAINTING_SPL_DETAIL
+             INNER JOIN PIP_PAINTING_SPL ON PIP_PAINTING_SPL_DETAIL.SPL_PNT_ID = PIP_PAINTING_SPL.SPL_PNT_ID
+     ) PAINTING_SPL ON PIP_SPOOL.SPL_ID = PAINTING_SPL.SPL_ID
+     LEFT OUTER JOIN PIP_REVISION ON PIP_ISOMETRIC.ISO_ID = PIP_REVISION.ISO_ID
+                                     AND PIP_ISOMETRIC.REV_NO = PIP_REVISION.REV_NO
+                                     AND PIP_ISOMETRIC.SCR = PIP_REVISION.SCR
+                                     AND PIP_ISOMETRIC.FCR = PIP_REVISION.FCR</value>
+  </data>
+</root>

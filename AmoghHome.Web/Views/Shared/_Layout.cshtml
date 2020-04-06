@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amogh Home</title>
+    @*@Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")*@
+        @*<link rel="stylesheet" type="text/css" href="~/css/main.css" >*@
+</head>
+<body>
+    @*<div class="limiter">
+        <span>
+            <img src="~/images/master-header.png" alt="Image" style="height: 70px" />
+            <a href="" id="logOutImageButton" class="lo-image">
+                @if (Session["UserName"] != null)
+                {
+                    <text>
+                        Welcome @Session["MailID"].ToString()
+                    </text>
+                }
+                <img id="btnLogOut" src="@Url.Content("~/images/log-out.png")" />
+            </a>
+        </span>
+        </div>*@
+       
+                @*<span>
+                        <img src="~/images/master-header.png" alt="Image" style="height: 70px" />
+                        <a href="" id="logOutImageButton" class="lo-image">
+                            @if (Session["UserName"] != null)
+                            {
+                                <text>
+                                    Welcome @Session["MailID"].ToString()
+                                </text>
+                            }
+                            <img id="" src="@Url.Content("~/images/log-out.png")" />
+                        </a>
+                    </span>*@
+                <div class="container body-content">
+                    @RenderBody()
+                    <hr />
+                    <footer>
+                        <p>
+                            Copyright © 2019, Maakuthari Group. All rights reserved
+                            <a href="" id="ImageButton2" class="lo-image">
+                                <img src="@Url.Content("~/images/app-store.png")" />
+                            </a>
+                            <a href="" id="ImageButton1" class="lo-image">
+                                <img src="@Url.Content("~/images/google-play.png")" />
+                            </a>
+                        </p>
+                    </footer>
+                </div>
+
+                @*@Scripts.Render("~/bundles/jquery")
+                    @Scripts.Render("~/bundles/bootstrap")
+                    @RenderSection("scripts", required: false)*@
+</body>
+</html>

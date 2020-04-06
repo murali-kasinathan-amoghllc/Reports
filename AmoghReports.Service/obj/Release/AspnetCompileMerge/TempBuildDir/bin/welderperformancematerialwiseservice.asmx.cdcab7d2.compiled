@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/WelderPerformanceMaterialWiseService.asmx" hash="ffffffffaf47d6c5" filehash="2855745ee176" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.WelderPerformanceMaterialWiseService">
+    <filedeps>
+        <filedep name="/WelderPerformanceMaterialWiseService.asmx" />
+    </filedeps>
+</preserve>

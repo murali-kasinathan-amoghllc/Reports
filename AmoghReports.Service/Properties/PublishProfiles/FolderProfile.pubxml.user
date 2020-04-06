@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Murali\PublishAmoghReportService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AmoghReports.Library.dll">
+      <publishTime>12/07/2019 13:53:20</publishTime>
+    </File>
+    <File Include="bin/AmoghReports.Library.pdb">
+      <publishTime>12/07/2019 13:53:20</publishTime>
+    </File>
+    <File Include="bin/AmoghReports.Service.dll">
+      <publishTime>12/07/2019 13:53:20</publishTime>
+    </File>
+    <File Include="bin/AmoghReports.Service.pdb">
+      <publishTime>12/07/2019 13:53:20</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>12/07/2019 13:53:25</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>12/07/2019 13:53:25</publishTime>
+    </File>
+    <File Include="bin/dailyfitupreport_joint_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/dailyfitupwelding_joint_service.asmx.cdcab7d2.compiled">
+      <publishTime>11/27/2019 11:38:47</publishTime>
+    </File>
+    <File Include="bin/dailyfitup_joint_service.asmx.cdcab7d2.compiled">
+      <publishTime>11/13/2019 17:01:15</publishTime>
+    </File>
+    <File Include="bin/dailyfitup_joint_shop_service.asmx.cdcab7d2.compiled">
+      <publishTime>11/12/2019 19:52:29</publishTime>
+    </File>
+    <File Include="bin/dailyweldingreport_joint_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/duqmliquidpenetranttestingservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/duqmmagneticparticletestingservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/duqmndertstatusfieldservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_classwise_rt_nonprod_statusfieldservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_ft_status_classwiseservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_ht_status_classwise_nonprodservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_ht_status_classwise_prodservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_pmi_status_classwise_nonprodservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_pmi_status_classwise_prodservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_pwht_status_classwise_nonprodservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_pwht_status_classwise_prodservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_ut_status_classwise_nonprodservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmnde_ut_status_classwise_prodservice.asmx.cdcab7d2.compiled">
+      <publishTime>11/07/2019 12:04:19</publishTime>
+    </File>
+    <File Include="bin/duqmpostweldheattreatmentservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/duqmradiographyinspectionservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/duqmspoolclearanceandreleaseservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/duqmweldingreportservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/fitupweldingprogress_areawiseservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:25</publishTime>
+    </File>
+    <File Include="bin/fitupweldingprogress_matwiseservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:25</publishTime>
+    </File>
+    <File Include="bin/fitupweldingprogress_sizewiseservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/getreportparameters.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/getreportxfield.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/getreportxshop.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/isometricstatusservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/liquidpenetranttestingservice.asmx.cdcab7d2.compiled">
+      <publishTime>10/02/2019 23:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 13:40:50</publishTime>
+    </File>
+    <File Include="bin/nde_ft_status_classwise_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/nde_ht_status_classwise_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/nde_pmi_status_classwise_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/nde_pwht_status_classwise_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/nde_rt_status_classwise_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/nde_ut_status_classwise_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/18/2019 16:00:02</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>07/09/2019 12:18:16</publishTime>
+    </File>
+    <File Include="bin/radiographyinspectionservice.asmx.cdcab7d2.compiled">
+      <publishTime>10/02/2019 23:12:22</publishTime>
+    </File>
+    <File Include="bin/reportspoolidservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/rfitransmittalservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 19:20:24</publishTime>
+    </File>
+    <File Include="bin/rtreportsservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/spoolgenprogress_lotwise_exclude3revservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/spoolgenprogress_lotwise_service.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.dll">
+      <publishTime>06/18/2019 16:04:22</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.pdb">
+      <publishTime>06/18/2019 16:04:22</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.WebServiceDataSource.dll">
+      <publishTime>06/18/2019 16:04:28</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.WebServiceDataSource.pdb">
+      <publishTime>06/18/2019 16:04:28</publishTime>
+    </File>
+    <File Include="bin/welderperformancelengthwiseservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/welderperformancelineclasslengthservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/welderperformancelineclassservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/welderperformancematerialwiseservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/welderperformancemonthlywiseservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/welderperformancertpercentservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/welderperformanceservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="bin/welderperformanceweldsizeservice.asmx.cdcab7d2.compiled">
+      <publishTime>12/07/2019 13:53:26</publishTime>
+    </File>
+    <File Include="DailyFitupReport_Joint_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="DailyFitupWelding_Joint_Service.asmx">
+      <publishTime>11/27/2019 11:38:48</publishTime>
+    </File>
+    <File Include="DailyFitup_Joint_Service.asmx">
+      <publishTime>11/13/2019 17:01:15</publishTime>
+    </File>
+    <File Include="DailyFitup_Joint_Shop_Service.asmx">
+      <publishTime>11/12/2019 19:52:30</publishTime>
+    </File>
+    <File Include="DailyWeldingReport_Joint_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="DuqmLiquidPenetrantTestingService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="DuqmMagneticParticleTestingService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="DuqmNDERTStatusFieldService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_ClassWise_RT_NonProd_StatusFieldService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_FT_Status_ClassWiseService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_HT_Status_ClassWise_NonProdService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_HT_Status_ClassWise_ProdService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_PMI_Status_ClassWise_NonProdService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_PMI_Status_ClassWise_ProdService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_PWHT_Status_ClassWise_NonProdService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_PWHT_Status_ClassWise_ProdService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_UT_Status_ClassWise_NonProdService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmNDE_UT_Status_ClassWise_ProdService.asmx">
+      <publishTime>11/07/2019 12:04:21</publishTime>
+    </File>
+    <File Include="DuqmPostWeldHeatTreatmentService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="DuqmRadiographyInspectionService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="DuqmSpoolClearanceAndReleaseService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="DuqmWeldingReportService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="FitupWeldingProgress_AreaWiseService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="FitupWeldingProgress_MatWiseService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="FitupWeldingProgress_SizeWiseService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="GetReportParameters.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="GetReportXField.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="GetReportXShop.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="IsometricStatusService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="LiquidPenetrantTestingService.asmx">
+      <publishTime>10/02/2019 23:12:23</publishTime>
+    </File>
+    <File Include="NDE_FT_Status_ClassWise_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="NDE_HT_Status_ClassWise_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="NDE_PMI_Status_ClassWise_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="NDE_PWHT_Status_ClassWise_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="NDE_RT_Status_ClassWise_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="NDE_UT_Status_ClassWise_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>12/07/2019 13:53:21</publishTime>
+    </File>
+    <File Include="RadiographyInspectionService.asmx">
+      <publishTime>10/02/2019 23:12:23</publishTime>
+    </File>
+    <File Include="ReportSpoolIdService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="RFITransmittalService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="RTReportsService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="SpoolGenProgress_LotWise_Exclude3RevService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="SpoolGenProgress_LotWise_Service.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/14/2019 17:25:39</publishTime>
+    </File>
+    <File Include="WelderPerformanceLengthWiseService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="WelderPerformanceLineClassLengthService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="WelderPerformanceLineClassService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="WelderPerformanceMaterialWiseService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="WelderPerformanceMonthlyWiseService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="WelderPerformanceRTPercentService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="WelderPerformanceService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+    <File Include="WelderPerformanceWeldSizeService.asmx">
+      <publishTime>12/07/2019 13:53:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

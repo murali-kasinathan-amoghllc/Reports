@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/WelderPerformanceWeldSizeService.asmx" hash="ffffffffaf47d6c5" filehash="3dd964e4b5fd" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.WelderPerformanceWeldSizeService">
+    <filedeps>
+        <filedep name="/WelderPerformanceWeldSizeService.asmx" />
+    </filedeps>
+</preserve>

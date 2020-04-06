@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/SpoolGenProgress_LotWise_Service.asmx" hash="ffffffffaf47d6c5" filehash="ffffd706208165b3" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.SpoolGenProgress_LotWise_Service">
+    <filedeps>
+        <filedep name="/SpoolGenProgress_LotWise_Service.asmx" />
+    </filedeps>
+</preserve>

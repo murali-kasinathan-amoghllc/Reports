@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/GetReportXShop.asmx" hash="ffffffffaf47d6c5" filehash="24d9d9db8afc" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.GetReportXShop">
+    <filedeps>
+        <filedep name="/GetReportXShop.asmx" />
+    </filedeps>
+</preserve>

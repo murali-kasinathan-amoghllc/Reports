@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/RTReportsService.asmx" hash="ffffffffaf47d6c5" filehash="39cecf38a283" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.RTReportsService">
+    <filedeps>
+        <filedep name="/RTReportsService.asmx" />
+    </filedeps>
+</preserve>

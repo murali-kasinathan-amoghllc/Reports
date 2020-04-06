@@ -1,0 +1,77 @@
+﻿@model IEnumerable<AmoghHome.Web.Models.ProjectsModel>
+@{
+    ViewBag.Title = "Projects";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Amogh Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/css/main.css">
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <script src="~/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+       <script src="~/js/projectList.js"></script>
+
+</head>
+<body>
+    <div class="limiter">
+        <span>
+            <img src="~/images/master-header.png" alt="Image" style="height: 70px" />
+            <div id="logOutImageButton" class="lo-image">
+                @if (Session["UserName"] != null)
+                {
+                    <span>
+                        Welcome : @Session["MailID"].ToString().Split('@')[0]
+                    </span>
+                }
+                <img id="btnLogOut" src="@Url.Content("~/images/log-out.png")" />
+                </div>
+</span>
+        @*@if (Request.UrlReferrer != null)
+        {
+            <a class="bottomNav" onclick="history.go(-1); return false;" href="#">Back</a><br />
+        }*@
+        <input type="hidden" id="hdnURL" value="@Url.Content("~/")" />
+        <div class="container-table100">
+            <div class="wrap-table100">
+                <div class="headerInfo">
+                    Projects
+                </div>
+                <table class="table table-hover" id="myTable">
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="row">
+                                <td class="cell"> @item.projectId</td>
+                                <td class="cell" id="projectName"> @item.projectName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

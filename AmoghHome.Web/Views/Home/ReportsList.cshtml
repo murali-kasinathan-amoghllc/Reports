@@ -1,0 +1,93 @@
+﻿@*@model IEnumerable<AmoghHome.Web.Models.ReportItemModel>*@
+@{
+    ViewBag.Title = "Reports";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Amogh Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/css/main.css">
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <script src="~/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <style>
+        tr.even {
+            background-color: #F5F5F5 !important;
+        }
+    </style>
+    @*<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />*@
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+    <script src="~/js/reportList.js"></script>
+
+</head>
+<body>
+    <div class="limiter">
+        <span>
+            <img src="~/images/master-header.png" alt="Image" style="height: 70px" />
+            <a href="" id="logOutImageButton" class="lo-image">
+                @if (Session["UserName"] != null)
+                {
+                    <span>
+                        Welcome : @Session["MailID"].ToString().Split('@')[0]
+                    </span>
+                }
+                <img id="btnLogOut" src="@Url.Content("~/images/log-out.png")" />
+            </a>
+        </span>
+        <input type="hidden" id="hdnURL" value="@Url.Content("~/")" />
+        @*@if (Request.UrlReferrer != null)
+        {
+            <a class="bottomNav" onclick="history.go(-1); return false;" href="#">Back</a><br />
+        }*@
+        <div class="container-table100">
+            <div class="wrap-table100">
+                <div style="width:100%; margin:0 auto">
+                    <div class="headerInfo">
+                        Reports
+                    </div>
+                    <div class="fixedDataTablePosition">
+                        <table class="table-hover" id="myReports" style="width:100%;">
+                            <thead>
+                                <tr>
+                                    <th>Report No</th>
+                                    <th>Report Name</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/WelderPerformanceMonthlyWiseService.asmx" hash="ffffffffaf47d6c5" filehash="fffffdd711266fbf" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.WelderPerformanceMonthlyWiseService">
+    <filedeps>
+        <filedep name="/WelderPerformanceMonthlyWiseService.asmx" />
+    </filedeps>
+</preserve>

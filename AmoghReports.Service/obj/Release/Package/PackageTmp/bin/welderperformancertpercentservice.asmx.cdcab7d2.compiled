@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/WelderPerformanceRTPercentService.asmx" hash="ffffffffaf47d6c5" filehash="ffffe05af47ef4ef" flags="130000" assembly="AmoghReports.Service" type="AmoghReports.Service.WelderPerformanceRTPercentService">
+    <filedeps>
+        <filedep name="/WelderPerformanceRTPercentService.asmx" />
+    </filedeps>
+</preserve>
